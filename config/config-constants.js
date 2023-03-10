@@ -1,7 +1,7 @@
 import dotenv from 'dotenv';
 
 const result = dotenv.config();
-//const PORT = result.parsed.PORT;
+const PORT = result.parsed.PORT;
 const DB_HOST = result.parsed.HOST;
 const DB_PORT = result.parsed.DB_PORT;
 const DB_USER = result.parsed.USER;
